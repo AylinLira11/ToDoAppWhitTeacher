@@ -1,0 +1,42 @@
+h1 {
+    color: white;
+}
+
+.buttonDelete {
+    border-radius: 15px;
+}
+
+/* .strike {
+    position: relative;
+    display: inline-block;
+}
+
+.strike::before, .strike::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.strike::before {
+    border-bottom: 2px solid red;
+    -webkit-transform: skewY(-10deg);
+    transform: skewY(-10deg);
+}
+.strike::after {
+    border-bottom: 2px solid red;
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+} */
+
+.strike {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    
+}
+
+td {
+    font-size: 30px;
+}
+
